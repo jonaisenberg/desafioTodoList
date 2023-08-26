@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.tareas {
+    background-color: rgba(28, 116, 203, 0.267);
+    border: 1px solid black;
+    width: 100vw;
+    height: 100vh;
+}
+
+.titulo {
+    margin: 20px;
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 1px 10px 30px black;
+    color: rgb(144, 2, 2);
+}
+
+.nueva-tarea {
+    text-align: center;
+    margin-left: -480px;
+    margin-bottom: -1px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.datos {
+    display: flex;
+    justify-content: center;
+}
+
+#agregar-tarea {
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 5px;
+    padding-right: 200px;
+    font-size: 25px;
+}
+
+#btn-agregar {
+    background-color: rgba(6, 129, 251, 0.781);
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#seccion {
+    font-size: 20px;
+}
+
+th {
+    width: 600px;
+}
+
+.table-active {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+}

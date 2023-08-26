@@ -1,0 +1,42 @@
+
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio TodoList</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&family=Josefin+Sans:wght@400;600&family=Roboto+Mono:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="tareas">
+        <h1 class="titulo">Todo List</h1>
+        <p class="nueva-tarea">Nueva tarea</p>
+        <div class="datos">
+            <input type="text" id="agregar-tarea" placeholder="Ingresa una tarea">
+            <button id="btn-agregar">Agregar</button>
+        </div>
+        <div class="detalle">
+            <p>Total: <span id="total-tarea"></span></p>
+            <p>Realizadas: <span id="realizadas"></span></p>
+            </p>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th id="seccion">Id</th>
+                        <th class="table-active" id="seccion">Tarea</th>
+                        <th id="seccion">Estado</th>
+                    </tr>
+                </thead>
+                <tbody class="cuerpo">
+                </tbody>
+            </table>
+            <ul id="lista-tareas"></ul>
+        </div>
+
+    </section>
+</body>
+<script src="./assets/js/script.js"></script>
+<script src="https://kit.fontawesome.com/e389d82036.js" crossorigin="anonymous"></script>
+</html>
